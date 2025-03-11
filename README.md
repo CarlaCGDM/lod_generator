@@ -4,9 +4,6 @@
 **Version:** 1.0  
 **Blender Version:** 3.0+  
 **Category:** Object  
-
-![LODs (3)](https://github.com/user-attachments/assets/4fa9d659-7509-4ede-9ff9-01d05c4f5fbe)
-
 ---
 
 ## 📥 Installation  
