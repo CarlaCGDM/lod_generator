@@ -31,6 +31,9 @@ This ensures the addon can correctly read and resize textures.
 
 ## 🎮 How to Use  
 
+![image](https://github.com/user-attachments/assets/ad952967-f383-4cda-9868-acf7929eaab7)
+
+
 1. Open the **3D View** and find the addon under the **"Tools"** tab.  
    - If the sidebar is not visible, press **N** to show it.  
 
