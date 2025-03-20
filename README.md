@@ -64,7 +64,7 @@ This ensures the addon can correctly read and resize textures.
 
 ---
 
-## **Addon Workflow**
+## ⚙ Addon Workflow
 ```mermaid
 graph TD
     style A font-size:12px
