@@ -64,6 +64,37 @@ This ensures the addon can correctly read and resize textures.
 
 ---
 
+## **Addon Workflow**
+```mermaid
+graph TD
+    style A font-size:12px
+    style B font-size:12px
+    style C font-size:12px
+    style D font-size:12px
+    style E font-size:12px
+    style F font-size:12px
+    style G font-size:12px
+    style H font-size:12px
+    style I font-size:12px
+     style J font-size:12px
+
+    A[**Start**] --> B[**User selects target collection**]
+A --> H[**User selects output folder**]
+A --> J[**User selects output format**]
+    B --> C[**Check highest texture resolution**]
+H --> C
+J --> C
+    C --> D[**Find closest LOD level**]
+    D --> E[**Loop through LOD levels**]
+    E -->|For each LOD level| F[**Apply decimation & resize textures**]
+    F --> G[**Export LOD level**]
+    G -->|More LODs left?| E
+    G -->|No more LODs| I[**Finish**]
+
+
+```
+---
+
 ## 📬 Contact & Support  
 
 For updates, issues, or feature requests, visit:  
